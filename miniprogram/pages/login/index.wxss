@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-items: center;
+}
+.logo{
+    position: relative;
+    width: 200rpx;
+    height: 200rpx;
+    top: 150rpx; 
+}
+.logo image{
+    width: 100%;
+    height: 100%;
+}
+.line{
+    position: relative;
+    width: 95%;
+    height: 1rpx;
+    background-color: #e1e1e1;
+    top: 250rpx;
+}
+.messages{
+    position: relative;
+    top: 275rpx;
+}
+.login{
+    position: relative;
+    top: 370rpx;
+}

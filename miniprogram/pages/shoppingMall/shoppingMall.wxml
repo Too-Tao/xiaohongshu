@@ -1,0 +1,88 @@
+<view class="search">
+    <view class="search_input">
+        <image src='../../images/icon/search.png' />
+        <input type="text" placeholder-style="font-size:30rpx;" placeholder="大家都在搜“我就是演员”" />
+    </view>
+</view>
+<van-tabs active="{{active}}">
+    <van-tab title="推荐">
+        <!-- 轮播图 -->
+        <view class="swiper-top">
+            <swiper wx:if="{{adsPic.length}}" autoplay="true" indicator-dots="true" circular="true">
+                <block wx:for="{{adsPic}}" wx:for-item="ad" wx:key="ad._id">
+                    <swiper-item>
+                        <image src="{{ad.pic}}" data-id="{{ad._id}}" mode="aspectFill" />
+                    </swiper-item>
+                </block>
+            </swiper>
+        </view>
+        <view class="activity-first">
+            <image src="https://haitao.nosdn1.127.net/p1tfEmQhXmZ6OkgG2m8FT1811011107_960_301.gif" />
+        </view>
+        <view class="activity-second">
+            <view class="block_left">
+                <image src="https://haitao.nosdn2.127.net/vxiEDib2dLIKaXyvhUFr-Unvv-o5Mrgai_03T1811022004_480_480.gif" />
+            </view>
+            <view class="block_right_top">
+                <image src="https://haitao.nos.netease.com/Dy3FmmInvIQtJSbhkDmAOl_04T1811012249_480_240.jpg?imageView&thumbnail=480x0&quality=95&type=webp" />
+            </view>
+            <view class="block_right_bottom">
+                <image src="https://haitao.nosdn1.127.net/IBdi9tiUtv4EkqmcgIc9Nd5Wqx-u22HMpZxAn-pPBd8Z_05T1811010014_480_240.jpg?imageView&thumbnail=480x0&quality=95&type=webp" />
+            </view>
+        </view>
+        <van-row>
+            <van-col span="12" >
+                <view class="col1">
+                    <image src="https://haitao.nosdn1.127.net/ZFT3TVe1TgqtxNDt1111khypGqaR0H3Xx9---TDHgkSCGq7Bv_01T1811040011_480_400.gif?klsize=480x400" />
+                </view>
+                
+            </van-col>
+            <van-col span="12" >
+                <view class="col1">
+                    <image src="https://haitao.nosdn2.127.net/UoA0Fv2SlpJLdRV81111FfgNg7Mxa7ocgT---de7qK68TT9LM_02T1811040011_480_400.gif?klsize=480x400" />
+                </view>
+            </van-col>
+        </van-row>
+        <van-row>
+            <van-col span="12">
+                <view class="col2">
+                    <image src="https://haitao.nosdn2.127.net/Q7Crif9hPez51yZZ1111XOcnWfVQaa1AhTtMSI--1104AwNAHH11_03T1811040030_480_90.jpg?klsize=480x90&imageView&thumbnail=480x90&quality=95&type=webp" />
+                </view>
+            </van-col>
+            <van-col span="12">
+                <view class="col2">
+                    <image src="https://haitao.nos.netease.com/1tx6kgSJ158TwlSP1111edSECALCPocfydJu5V--1104wud2WqO8_04T1811040030_480_90.jpg?klsize=480x90&imageView&thumbnail=480x90&quality=95&type=webp" />
+                </view>
+            </van-col>
+        </van-row>
+        <van-row>
+            <van-col span="12">
+                <view class="col5">
+                    <image src="https://haitao.nosdn1.127.net/MXH0eUvEpLHKWX7T1111GUi5TXvWUbeozQlwvL--1104wtH78VfJ_13T1811032155_480_291.jpg?klsize=480x291&imageView&thumbnail=480x291&quality=95&type=webp" />
+                </view>
+            </van-col>
+            <van-col span="12">
+                <view class="col5">
+                    <image src="https://haitao.nosdn1.127.net/Hze7hQU1x7ni0VCS1111QddyNNzJgTHETyZBb0--1104Cs0ZyQT8_14T1811032155_480_291.jpg?klsize=480x291&imageView&thumbnail=480x291&quality=95&type=webp" />
+                </view>
+            </van-col>
+        </van-row>
+        <van-row>
+            <van-col span="12">
+                <view class="col6">
+                    <image src="https://haitao.nosdn1.127.net/kzuez0HNwXe1V8Mn1111FlGBR7iySKUaBg4Pzt--1104OuTMOonF_15T1811032206_480_210.jpg?klsize=480x210&imageView&thumbnail=480x210&quality=95&type=webp" />
+                </view>
+            </van-col>
+            <van-col span="12">
+                <view class="col6">
+                    <image src="https://haitao.nosdn2.127.net/GEO2HGtNxGNT6ht21111tvEUJJiiATGusWXJbe--11044oXMGIDy_16T1811032206_480_210.jpg?klsize=480x210&imageView&thumbnail=480x210&quality=95&type=webp " />
+                </view>
+            </van-col>
+        </van-row>
+    </van-tab>
+    <van-tab title="服饰内衣"></van-tab>
+    <van-tab title="配饰"></van-tab>
+    <van-tab title="包包鞋靴"></van-tab>
+    <van-tab title="运动"></van-tab>
+    <van-tab title="更多"></van-tab>
+</van-tabs>

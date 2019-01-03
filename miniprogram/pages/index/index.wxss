@@ -1,0 +1,158 @@
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.search_input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 50rpx;
+  background-color: #F5F5F5;
+  width: 90%;
+}
+
+.search_input image {
+  height: 45rpx;
+  width: 45rpx;
+  align-self: center;
+  padding-left: 30rpx;
+}
+
+.search_input input {
+  height: 70rpx;
+  padding-left: 10rpx;
+}
+
+.swiper-top {
+  height: 80rpx;
+}
+
+/* waterfall Start  */
+
+.waterfallBox {
+  margin-top: 10rpx;
+  width: 100%;
+  border-top: 1rpx solid #e1e1e1;
+}
+
+.flex_vert {
+  margin-top: 5rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin-top: 10rpx;
+  height: 100vh;
+  overflow: hidden;
+  background: #F4F8FB;
+}
+
+.notes {
+  flex: 1;
+  overflow: hidden;
+  margin-top:22rpx;
+}
+
+.notes_inner {
+  text-align: center;
+}
+
+.notes_col {
+  width: 46.5%;
+  height: 300rpx;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.notes_col-left {
+  margin-right: 2.6%;
+}
+
+.note-item {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2rpx 2rpx 0 rgba(0, 0, 0, .1);
+  border-radius: 10rpx;
+  overflow: hidden;
+  margin-bottom: 20rpx;
+}
+
+.note-item_content {
+  width: 88%;
+  margin: 0rpx auto;
+  text-align: left;
+}
+
+.note-item_title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* 两行文字 */
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  margin: 20rpx 0;
+  font-size: 26rpx;
+  line-height: 1.5;
+  font-family: SimHei;
+  font-weight: 200;
+}
+
+.note-item_meta {
+  display: flex;
+  margin-bottom: 20rpx;
+}
+
+.note-item_user {
+  flex: 1;
+}
+
+.note-item_like {
+  position: relative;
+  width: 100rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+
+
+}
+
+.like {
+  position: absolute;
+  top: 4px;
+  left: 7px;
+  width: 40rpx;
+  height: 40rpx;
+  background-size: cover;
+
+}
+
+.note-item_like text {
+  position: absolute;
+  margin-left: 30px;
+
+}
+
+.note-item_like text,
+.note-item_user text {
+  font-size: 22rpx;
+}
+
+.note-item_avatar {
+  width: 50rpx;
+  height: 50rpx;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10rpx;
+  vertical-align: middle;
+}
+
+.note-item_avatar text {
+  font-size: 10pt;
+}
+
+/* waterfall End */

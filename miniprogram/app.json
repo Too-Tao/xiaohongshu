@@ -1,0 +1,41 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/notes/notes",
+    "pages/index/index",
+    "pages/search/search",
+    "pages/login/index",
+    "pages/my/my",
+    "pages/shoppingMall/shoppingMall"
+    
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小红书",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icon/home_h.png",
+        "selectedIconPath": "images/icon/home_o.png"
+      },
+      {
+        "pagePath": "pages/shoppingMall/shoppingMall",
+        "text": "商城",
+        "iconPath": "images/icon/shop_h.png",
+        "selectedIconPath": "images/icon/shop_o.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/icon/people_h.png",
+        "selectedIconPath": "images/icon/people_o.png"
+      }
+    ]
+  }
+}

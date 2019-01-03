@@ -1,0 +1,84 @@
+<view class="search">
+  <view class="search_input">
+    <image src='../../images/icon/search.png' />
+    <input type="text" bindtap="toSearch" placeholder-style="font-size:30rpx;" placeholder="大家都在搜“我就是演员”" />
+  </view>
+</view>
+<view class="waterfallBox">
+  <van-tabs active="{{active}}">
+  <van-tab title="推荐">
+    <!-- waterfall Start -->
+    <view style="display:none">
+      <image wx:for="{{images}}" wx:key="index" data-id="{{item.id}}" src="{{item.pic}}" bindload="onImageLoad" />
+    </view>
+    <view class="container flex_vert">
+      <scroll-view class="notes" scroll-y bindscrolltoupper="upper" bindscrolltolower="lower" lower-threshold="200">
+        <view class="notes_inner">
+          <view class="notes_col notes_col-left">
+            <view wx:for="{{col1}}" wx:key="_id">
+              <view class="note-item">
+                <image style="width:100%;height:{{item.height}}px;" src="{{item.pic}}"></image>
+                <view class="note-item_content">
+                  <view class="note-item_title">{{item.title}}</view>
+                  <view class="note-item_meta">
+                    <view class="note-item_user">
+                      <view class="note-item_avatar" style="background-image:url({{item.avatar}})"></view>
+                      <text>{{item.username}}</text>
+                    </view>
+                    <view class="note-item_like">
+                    <view class="like" style='background-image:url(../../images/icon/like_h.png)'></view>
+                      <text>{{item.like_num}}</text>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+          <view class="notes_col">
+            <view wx:for="{{col2}}" wx:key="_id">
+              <view class="note-item">
+                <image style="width:100%;height:{{item.height}}px;" src="{{item.pic}}"></image>
+                <view class="note-item_content">
+                  <view class="note-item_title">{{item.title}}</view>
+                  <view class="note-item_meta">
+                    <view class="note-item_user">
+                      <view class="note-item_avatar" style="background-image:url({{item.avatar}})"></view>
+                      <text>{{item.username}}</text>
+                    </view>
+                    <view class="note-item_like">
+                      <view class="like" style='background-image:url(../../images/icon/like_h.png)'></view>
+                      <text>{{item.like_num}}</text>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+    <!-- waterfall End -->
+  </van-tab>
+  <van-tab title="附近">附近</van-tab>
+  <van-tab title="视频">视频</van-tab>
+  <van-tab title="旅行">旅行</van-tab>
+  <van-tab title="男士穿搭">男士穿搭</van-tab>
+  <van-tab title="健身">健身</van-tab>
+  <van-tab title="数码">数码</van-tab>
+  <van-tab title="摄影">摄影</van-tab>
+  <van-tab title="美食">美食</van-tab>
+  <van-tab title="游戏">游戏</van-tab>
+  <van-tab title="汽车">汽车</van-tab>
+  <van-tab title="家居">家居</van-tab>
+  <van-tab title="护肤">护肤</van-tab>
+  <van-tab title="读书">读书</van-tab>
+  <van-tab title="音乐">音乐</van-tab>
+  <van-tab title="明星">明星</van-tab>
+  <van-tab title="时尚">时尚</van-tab>
+  <van-tab title="宠物">宠物</van-tab>
+  <van-tab title="母婴">母婴</van-tab>
+  <van-tab title="婚礼">婚礼</van-tab>
+  <van-tab title="萌娃">萌娃</van-tab>
+  <van-tab title="彩妆">彩妆</van-tab>
+</van-tabs>
+</view>

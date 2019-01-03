@@ -1,0 +1,182 @@
+.my_top {
+    height: 400rpx;
+    /* background-color: black; */
+    border-bottom: 1rpx solid #ACACAC;
+}
+
+.my_top_top {
+    position: relative;
+    height: 190rpx;
+    /* background-color:yellow; */
+}
+
+.userLogo {
+    position: absolute;
+    top: 15rpx;
+    left: 5%;
+    width: 160rpx;
+    height: 160rpx;
+    border-radius: 50%;
+    border: 2rpx solid #ACACAC;
+    overflow: hidden;
+    /* background-color: green; */
+}
+.userLogo image{
+  width: 100%;
+  height: 100%;
+}
+
+.statistics {
+    position: absolute;
+    width: 65%;
+    height: 100rpx;
+    float: right;
+    right: 28rpx;
+}
+
+.userMessages_setting {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 65%;
+    height: 70rpx;
+    top: 110rpx;
+    float: right;
+    right: 28rpx;
+
+}
+
+.my_top_mid {
+    position: relative;
+    height: 70rpx;
+    background: #fff;
+}
+
+.member {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20rpx;
+    left: 5%;
+    width: 160rpx;
+    height: 40rpx;
+
+    border-radius: 40rpx;
+    border: 1rpx solid #ACACAC;
+}
+
+.sex {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20rpx;
+    left: 30%;
+    width: 70rpx;
+    height: 40rpx;
+
+    border-radius: 40rpx;
+    border: 1rpx solid #ACACAC;
+}
+
+.sex image {
+    width: 30rpx;
+    height: 30rpx;
+}
+
+.perfect_location_information {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20rpx;
+    left: 43%;
+    width: 200rpx;
+    height: 40rpx;
+    border-radius: 40rpx;
+    border: 1rpx solid #ACACAC;
+}
+
+.unlocking_level {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20rpx;
+    left: 73%;
+    width: 150rpx;
+    height: 40rpx;
+    border-radius: 40rpx;
+    border: 1rpx solid #ACACAC;
+}
+
+.unlocking_level image {
+    width: 30rpx;
+    height: 30rpx;
+}
+
+
+
+.my_top_bottom {
+    height: 170rpx;
+
+}
+
+.col {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 150rpx;
+    height: 80rpx;
+    top: 10rpx;
+    background-color: #fff;
+}
+
+.userMessages {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360rpx;
+    height: 50rpx;
+    border-radius: 30rpx;
+    border: 2rpx solid #ACACAC;
+    background-color: #fff;
+}
+
+.setting {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75rpx;
+    height: 50rpx;
+    left: 10rpx;
+    border-radius: 30rpx;
+    border: 2rpx solid #ACACAC;
+    background-color: #fff;
+}
+
+.setting image {
+
+    width: 40rpx;
+    height: 40rpx;
+}
+
+
+
+.my_top_bottom {
+    position: relative;
+    width: 100%;
+    height: 160rpx;
+
+}
+
+.my_top_bottom span {
+    position: relative;
+    margin-left: 25rpx;
+}

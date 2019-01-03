@@ -1,0 +1,81 @@
+<view class="my_top">
+    <!-- =================== my_top_top Start ==================-->
+    <view class="my_top_top">
+        <view class="userLogo">
+            <image src="{{avatarUrl}}" style='background-size:cover'/>
+        </view>
+        <view class="statistics">
+            <van-row>
+                <van-col span="8">
+                    <view class="col">
+                        <view class="followers">
+                            <span style="display:block;">0</span>
+                            <span style="display:block; font-size:9pt;">关注</span>
+                        </view>
+                    </view>
+                </van-col>
+                <van-col span="8">
+                    <view class="col">
+                        <view class="fans">
+                            <span style="display:block;">0</span>
+                            <span style="display:block; font-size:9pt;">粉丝</span>
+                        </view>
+                    </view>
+                </van-col>
+                <van-col span="8">
+                    <view class="col">
+                        <view class="like">
+                            <span style="display:block;">0</span>
+                            <span style="display:block; font-size:9pt;">获赞与收藏</span>
+                        </view>
+                    </view>
+                </van-col>
+            </van-row>
+        </view>
+
+        <view class="userMessages_setting">
+            <view class="userMessages">
+                <span style="font-size:10pt;">个人资料</span>
+            </view>
+            <view class="setting">
+                <image src="../../images/icon/setting.png" />
+            </view>
+        </view>
+
+    </view>
+    <!-- =================== my_top_top End ==================-->
+
+    <!-- =================== my_top_mid Start ==================-->
+    <view class="my_top_mid">
+        <view class="member">
+            <span style="font-size:9pt;color:#FF2641;">R 成为会员 ></span>
+        </view>
+        <view class="sex">
+            <image src="../../images/icon/male.png" />
+        </view>
+        <view class="perfect_location_information">
+            <span style="font-size:8pt;">完善你的个人信息</span>
+        </view>
+        <view class="unlocking_level">
+            <image src="../../images/icon/medal.png" />
+            <span style="font-size:8pt;">解锁等级</span>
+        </view>
+    </view>
+    <!-- =================== my_top_mid End ==================-->
+
+
+    <!-- =================== my_top_buttom Start ==================-->
+    <view class="my_top_bottom">
+        <span style="font-size:12pt;display:inline-block;width:90%;word-wrap:break-word;white-space:normal;">添加个人描述,可让大家更好地认识你</span>
+        <van-tabs active="{{active}}">
+            <van-tab title="笔记">
+
+            </van-tab>
+            <van-tab title="收藏">
+                
+            </van-tab>
+        </van-tabs>
+    </view>
+    <!-- =================== my_top_buttom End ==================-->
+
+</view>

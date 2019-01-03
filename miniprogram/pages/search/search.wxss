@@ -1,0 +1,108 @@
+.search {
+    /* position: relative; */
+    margin-top: 15rpx;
+    width: 100%;
+    height: 90rpx;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.return {
+    /* position: absolute; */
+    position: relative;
+    width: 60rpx;
+    height: 60rpx;
+    top: -4rpx;
+    left: 10rpx;
+    /* background-color: green; */
+    background-size: cover;
+}
+.return image{
+    width: 100%;
+    height: 100%;
+}
+.search_input {
+    position: relative;
+    border-radius: 60rpx;
+    background-color: #F5F5F5;
+    width: 70%;
+    height: 70rpx;
+    margin-left: 72rpx;
+    margin-top: -70rpx;
+}
+
+.search_input image {
+    position: absolute;
+    height: 45rpx;
+    width: 45rpx;
+    margin-top: 15rpx;
+    margin-left: 20rpx;
+    /* padding-left: 30rpx; */
+}
+
+.search_input input {
+    position: absolute;
+    height: 70rpx;
+    left: 70rpx;
+    /* padding-left: 10rpx; */
+}
+
+.searchBtn {
+    position: relative;
+    top: -60rpx;
+    width: 100rpx;
+    height: 60rpx;
+    /* background-color: red; */
+    left: 84%;
+}
+.searchHistory{
+    width: 100%;
+    height: 250rpx;
+    background-color: #fafafa;
+}
+.searchHistoryTop{
+    position: relative;
+    width: 100%;
+    height: 125rpx;
+    /* background-color: blue; */
+}
+.historicalRecord{
+    position: absolute;
+    width: 160rpx;
+    height: 42rpx;
+    top: 50%;
+    margin-top: -21rpx;
+    margin-left:42rpx;
+    /* background-color: green */
+}
+.remove{
+    position: absolute;
+    width: 48rpx;
+    height: 48rpx;
+    /* background-color: aqua; */
+    right: 50rpx;
+    top: 50%;
+    margin-top: -30rpx;
+    
+    background-size: cover;
+}
+.remove image{
+    width: 100%;
+    height: 100%;
+}
+.searchHistoryButtom{
+    width: 100%;
+    height: 104rpx;
+    background-color: #fff;
+}
+.hotSearch{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+.hotSearchh2{
+    margin-left: 42rpx;
+}
+.hotSearchBox{
+    width: 100%;
+    height: auto;
+}

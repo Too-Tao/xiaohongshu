@@ -1,0 +1,33 @@
+<view class="search">
+    <view class="return" bindtap="handleReturn">
+        <image src="../../images/icon/return.png"></image>
+    </view>
+    <view class="search_input">
+        <image src='../../images/icon/search.png' />
+        <input type="text" placeholder-style="font-size:30rpx;" placeholder="大家都在搜“我就是演员”" />
+    </view>
+    <view class="searchBtn">
+        <a href="">搜索</a>
+    </view>
+</view>
+<view class="searchHistory">
+    <view class="searchHistoryTop">
+        <view class="historicalRecord">
+            <h2>历史记录</h2>
+        </view>
+        <view class="remove">
+            <image src='../../images/icon/remove.png' />
+        </view>
+    </view>
+    <view class="searchHistoryButtom">
+
+    </view>
+</view>
+<view class="hotSearch">
+    <view class="hotSearchh2">
+        <h2>热门搜索</h2>
+    </view>
+    <view class="hotSearchBox">
+
+    </view>
+</view>

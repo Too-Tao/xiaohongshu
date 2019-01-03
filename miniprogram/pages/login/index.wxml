@@ -1,0 +1,12 @@
+<view class="container" wx:if="{{canIUse}}" >
+    <view class="logo">
+        <image src="../../images/img/loginLogo.png"/>
+    </view>
+    <view class="line">
+    </view>
+    <view class="messages">
+        <text style="font-size:18pt;">申请获得以下权限\n</text>
+        <text style="font-size:10pt;color:#A2A3A4">获得你的公开信息(昵称，头像等)</text>
+    </view>
+    <button class="login" type="primary" bindTap="toIndex" open-type="getUserInfo" bindgetuserinfo="getUserInfo">授权登陆</button>
+</view>

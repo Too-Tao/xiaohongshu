@@ -1,0 +1,148 @@
+/* 搜索框 */
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.search_input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 50rpx;
+    /* background-color: #F5F5F5; */
+    width: 90%;
+}
+
+.search_input image {
+    height: 45rpx;
+    width: 45rpx;
+    align-self: center;
+    padding-left: 30rpx;
+}
+
+.search_input input {
+    height: 70rpx;
+    padding-left: 10rpx;
+}
+/* 轮播图 */
+.swiper-top {
+    width: 100%;
+    height: 300rpx;
+    /* background-color:yellow; */
+}
+.swiper-top swiper{
+    width: 100%;
+    height: 100%;
+}
+.swiper-top swiper image{
+    width: 100%;
+    height: 300rpx;
+}
+/* 活动板块 */
+.activity-first{
+    position: relative;
+    width: 100%;
+    top: 2rpx;
+    height: 235rpx;
+    /* background-color: white; */
+}
+.activity-first image{
+    width: 100%;
+    height:100%;
+}
+
+.activity-second{
+    width: 100%;
+    height: 375.2rpx;
+    /* background-color: black; */
+}
+.block_left{
+    width: 50%;
+    height: 375.2rpx;
+    /* background-color: yellow; */
+}
+.block_left image{
+    width: 100%;
+    height: 100%;
+}
+.block_right_top{
+    position: relative;
+    left: 50%;
+    top: -370.2rpx;
+    width: 50%;
+    height: 187.6rpx;
+    /* background-color: blueviolet; */
+}
+.block_right_top image{
+    width: 100%;
+    height: 100%;
+}
+.block_right_bottom{
+    position: relative;
+    left: 50%;
+    top: -370.2rpx;
+    width: 50%;
+    height: 187.6rpx;
+    /* background-color:green; */
+}
+.block_right_bottom image{
+    width: 100%;
+    height: 100%;
+}
+
+.col1{
+    width: 100%;
+    height: 312.64rpx;
+    display: inline-block;
+}
+.col1 image{
+    width: 100%;
+    height: 100%;
+}
+
+.col2{
+    width: 100%;
+    height: 70.34rpx;
+}
+.col2 image{
+    width: 100%;
+    height: 100%;
+}
+
+.col3{
+    width: 100%;
+    height: 136rpx;
+}
+.col3 image{
+    width: 100%;
+    height: 100%;
+}
+
+.col4{
+    width: 100%;
+    height: 136rpx;
+}
+.col4 image{
+    width: 100%;
+    height: 100%;
+}
+
+.col5{
+    width: 100%;
+    height: 227.46rpx;
+}
+.col5 image{
+    width: 100%;
+    height: 100%;
+}
+.col6{
+    width: 100%;
+    height: 165.76rpx;
+
+}
+.col6 image{
+    width: 100%;
+    height: 100%;
+}
