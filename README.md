@@ -10,3 +10,10 @@
 
 - [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
 
+# 项目实现
+- 权限请求
+- 仿小红书项目实现了首页瀑布流、向云数据库请求数据、商城页UI、我的信息页面
+- 数据向微信小程序云数据取数据
+### 首页
+![image](https://github.com/Too-Tao/xiaohongshu/blob/master/demoPic.png)
+
